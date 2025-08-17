@@ -1,3 +1,4 @@
+import { useLoaderData } from "react-router";
 import type { Route } from "./+types/$pid";
 
 export function loader({ params }: { params: { pid: string } }) {
@@ -12,6 +13,7 @@ export function loader({ params }: { params: { pid: string } }) {
 // export function action() {
 //   return null;
 // }
-export default function PostEdit({ loaderData }: Route.ComponentProps) {
+export default function PostEdit() {
+  const {} = useLoaderData<typeof loader>();
   return <div>PostEdit </div>;
 }

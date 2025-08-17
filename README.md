@@ -84,6 +84,7 @@ Make sure to deploy the output of `npm run build`
 ```
 
 ## Project Structure
+
 ```bash
 project/
 |-- app/
@@ -101,6 +102,14 @@ project/
 
 ```
 
+## Common Script
+| Command          | Description                          |
+| --------------------------------------------------------|
+| `yarn dev`       | Run the app in development mode      |
+| `yarn build`     | Build the app code                   |
+| `yarn build`     | Run the compiled API from `dist/`    |
+| `yarn lint`      | Lint API code using ESLint           |
+
 ## Styling
 
 This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
@@ -114,5 +123,3 @@ Built with ❤️ using React Router.
 ```bash
 
 ```
-
-
