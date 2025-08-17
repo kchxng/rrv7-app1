@@ -16,6 +16,11 @@ A modern, production-ready template for building full-stack React applications u
 
 ## Getting Started
 
+```bash
+# new project
+npx create-react-router@latest <rrv7-app1>
+```
+
 ### Installation
 
 Install the dependencies:
@@ -85,3 +90,9 @@ This template comes with [Tailwind CSS](https://tailwindcss.com/) already config
 ---
 
 Built with ❤️ using React Router.
+
+## Packages
+
+```bash
+
+```
