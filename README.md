@@ -103,12 +103,12 @@ project/
 ```
 
 ## Common Script
-| Command          | Description                          |
-| --------------------------------------------------------|
-| `yarn dev`       | Run the app in development mode      |
-| `yarn build`     | Build the app code                   |
-| `yarn build`     | Run the compiled API from `dist/`    |
-| `yarn lint`      | Lint API code using ESLint           |
+| Command          | Description                           |
+| ---------------- | ------------------------------------- |
+| `yarn dev`       | Run the app in development mode       |
+| `yarn build`     | Build the app code                    |
+| `yarn build`     | Run the compiled API from `dist/`     |
+| `yarn lint`      | Lint API code using ESLint            |
 
 ## Styling
 
